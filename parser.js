@@ -1,5 +1,3 @@
-console.log(african_head);
-
 class Mesh {
 	constructor(id, name, vertices = [], texture_coord = [], vertex_norm = [], space_vert = [], faces = [], lines = []) {
 		this.id = id;
@@ -124,4 +122,3 @@ function parse(mesh_data) {
 
 // TEST
 let african_head_mesh = parse(african_head);
-console.log(african_head_mesh);
